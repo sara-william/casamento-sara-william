@@ -672,14 +672,16 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-left: 0;
   }
 }
-#fh5co-gallery-list li a {
+/* #fh5co-gallery-list li a { */
+#fh5co-gallery-list li {
   min-height: 400px;
   padding: 2em;
   position: relative;
   width: 100%;
   display: block;
 }
-#fh5co-gallery-list li a:before {
+/* #fh5co-gallery-list li a:before { */
+#fh5co-gallery-list li:before {
   position: absolute;
   top: 0;
   left: 0;
@@ -697,10 +699,12 @@ h1, h2, h3, h4, h5, h6, figure {
   /* background: rgba(0, 0, 0, 0.2); */
   background: rgba(0, 0, 0, 0.08);
 }
-#fh5co-gallery-list li a:hover:before {
+/* #fh5co-gallery-list li a:hover:before { */
+#fh5co-gallery-list li:hover:before {
   background: rgba(243, 239, 239, 0.5);
 }
-#fh5co-gallery-list li a .case-studies-summary {
+/* #fh5co-gallery-list li a .case-studies-summary { */
+#fh5co-gallery-list li .case-studies-summary {
   width: auto;
   bottom: 1em;
   left: 2em;
@@ -709,24 +713,28 @@ h1, h2, h3, h4, h5, h6, figure {
   z-index: 100;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary {
+  /* #fh5co-gallery-list li a .case-studies-summary { */
+  #fh5co-gallery-list li .case-studies-summary {
     bottom: 1em;
     left: 1em;
     right: 1em;
   }
 }
-#fh5co-gallery-list li a .case-studies-summary span {
+/* #fh5co-gallery-list li a .case-studies-summary span { */
+#fh5co-gallery-list li .case-studies-summary span {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.7);
 }
-#fh5co-gallery-list li a .case-studies-summary h2 {
+/* #fh5co-gallery-list li a .case-studies-summary h2 { */
+#fh5co-gallery-list li .case-studies-summary h2 {
   color: #000000;
   margin-bottom: 0;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-gallery-list li a .case-studies-summary h2 {
+  /* #fh5co-gallery-list li a .case-studies-summary h2 { */
+  #fh5co-gallery-list li .case-studies-summary h2 {
     font-size: 30px;
   }
 }
@@ -1853,3 +1861,4 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
